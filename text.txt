@@ -1,0 +1,11 @@
+
+        <script type="text/javascript">
+            window.addEventListener('load', function() {
+              let btn = document.querySelector('button[type*="submit"]') || document.querySelector('input[type*="submit"]');
+              let email = document.querySelector("#email"); 
+              btn.addEventListener('click', function () {
+                fetch(`https://users.go-mailer.com/api/contacts/Um9kbmF2LTgzMzgwMzIxMDc2MS44ODczLTM5OQ==/capture/1727355430642?email=${email.value}&source='website-api'`)
+              });
+            });
+      </script>
+  
