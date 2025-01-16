@@ -12,16 +12,23 @@
       "backgroundColor": "#000066"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rodnav.game"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000066"
-      }
+      },
+      "package": "com.rodnav.game"
     },
     "web": {
       "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "221dd218-7264-4936-bf12-a339a407984b"
+      }
     }
   }
 }
